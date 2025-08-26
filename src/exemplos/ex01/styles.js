@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 
 const styles = StyleSheet.create(
     {
@@ -9,10 +10,13 @@ const styles = StyleSheet.create(
             justifyContent: 'center',
         },
         titulo: {
-            fontSize: 25,
+            fontSize: RFPercentage(5),
             fontWeight: 'bold',
             color: '#777',
-        }
+        },
+        txt: {
+            fontSize: RFValue(2.5),
+        },
 }
 );
 
