@@ -15,7 +15,7 @@ const styles = StyleSheet.create(
             color: '#777',
         },
         txt: {
-            fontSize: RFValue(2.5),
+            fontSize: RFPercentage(2.5),
         },
 }
 );
