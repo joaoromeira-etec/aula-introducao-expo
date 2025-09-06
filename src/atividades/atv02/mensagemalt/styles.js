@@ -8,25 +8,45 @@ const styles = StyleSheet.create(
             borderWidth: RFPercentage(0.3),
             width: '90%',
             padding: 8,
-            alignItems: 'Produto',
             borderRadius: 20,
-            marginBottom: RFPercentage(1),            
+            marginBottom: RFPercentage(1),
+            flexDirection: 'row',            
         },
+
+
         titulo: {
-            fontSize: RFPercentage(2),
+            fontSize: RFPercentage(2.5),
             color: 'darkviolet',
             fontWeight: 'bold',
             marginBottom: RFPercentage(1),
         },
+
+
         texto: {
-            fontSize: RFPercentage(2),
+            fontSize: RFPercentage(1.5),
             color: 'darkviolet',
+            marginBottom: RFPercentage(1),
         },
+
+        preco: {
+            fontSize: RFPercentage(2),
+            color: 'black',
+            fontWeight: 'bold',
+            marginBottom: RFPercentage(1),
+        },
+
         imagem: {
-            // height: RFPercertage(10);
-            // width: RFPercentage(28);
-            width: '80%',
-            resizeMode: 'contain',
+            height: RFPercentage(10),
+            width: RFPercentage(10),
+            resizeMode: 'strecht',
+        },
+
+        resolucaoImagem: {
+            width: '30%',
+        },
+
+        resolucaoTexto: {
+            widhr: '70%',
         }
 });
 

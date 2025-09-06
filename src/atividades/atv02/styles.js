@@ -26,10 +26,9 @@ const styles = StyleSheet.create(
             borderRadius: 20,
         },
         imagem: {
-            // height: RFPercertage(10);
-            // width: RFPercentage(28);
+            
             width: '80%',
-            resizeMode: 'contain',
+            resizeMode: 'stretch',
         }
 }
 );
