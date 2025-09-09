@@ -20,7 +20,7 @@ function Atividade02() {
                 </Mensagemalt>
 
 
-            <Mensagemalt  titulo={'Cortador Infernal'} >Espada longa curvada ótima para caçadores de ranque elevado, lâmina afiada e amolada para corte de rabos ou membros anteriores. </Mensagemalt>
+            <Mensagemalt  titulo={'Cortador Infernal'}></Mensagemalt>
             <Mensagemalt titulo={'Produto 3: '}>O tempo acabou!</Mensagemalt>
             <Mensagemalt titulo={'Produto 4: '}></Mensagemalt>
 

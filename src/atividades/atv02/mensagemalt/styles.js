@@ -46,7 +46,7 @@ const styles = StyleSheet.create(
         },
 
         resolucaoTexto: {
-            widhr: '70%',
+            width: '70%',
         }
 });
 
