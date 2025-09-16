@@ -33,7 +33,7 @@ const styles = StyleSheet.create(
             color: 'white',
             fontSize: RFPercentage(2),
 
-        }
+        },
 }
 );
 

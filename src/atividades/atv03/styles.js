@@ -35,7 +35,7 @@ const styles = StyleSheet.create(
             padding: 8,
             textAlign: 'center',
             textAlignVertical: 'center',
-            width: '80%',
+            width: '50%',
             height: 60,
             justifyContent: 'space-evenly',
         },
@@ -51,10 +51,14 @@ const styles = StyleSheet.create(
             padding: 8,
             textAlign: 'center',
             textAlignVertical: 'center',
-            width: '80%',
+            width: '25%',
             height: 60,
             
 
+        },
+        containerBotoes: {
+            flexDirection: 'row',
+            alignItems: 'center',
         },
 }
 );

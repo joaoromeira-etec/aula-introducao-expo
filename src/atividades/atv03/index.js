@@ -25,15 +25,9 @@ export default function Atividade03() {
         <View style={styles.container}>
 
             <Text style={styles.titulo}>Atividade 3</Text>
-            <Text style={styles.txt}>{numero}
 
 
-            </Text>
-
-
-
-
-             
+             <View style={styles.containerBotoes}>
              <TouchableOpacity 
                 style={styles.Botao}
                 onPress={() => handleIncrementar()}
@@ -41,6 +35,7 @@ export default function Atividade03() {
                 <Text style={styles.txtBotao}>Aumentar! :0</Text>
             </TouchableOpacity>
 
+            <Text style={styles.txt}>{numero}</Text>
 
             <TouchableOpacity 
                 style={styles.Botao}
@@ -48,6 +43,9 @@ export default function Atividade03() {
             >
                 <Text style={styles.txtBotao}>Diminuir! 0:</Text>
             </TouchableOpacity>
+            </View>
+
+
 
 
             <TouchableOpacity 
