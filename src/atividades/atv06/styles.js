@@ -35,6 +35,8 @@ const styles = StyleSheet.create(
 
         input: {
             height: 50,
+            fontWeight: 'bold',
+            textAlignVertical: 'center',
             textAlign: 'center',
             width: '150',
             fontSize: RFPercentage(2),
@@ -67,7 +69,7 @@ const styles = StyleSheet.create(
             marginTop: RFPercentage(5),
             alignItems: 'center',
             textAlignVertical: 'center',
-            width: '95%',
+            width: '90%',
             borderStyle: 'solid',
             borderWidth: 2,
             borderRadius: 20,

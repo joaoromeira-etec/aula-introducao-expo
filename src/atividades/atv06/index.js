@@ -5,9 +5,9 @@ import { useState } from 'react';
 
 export default function Atividade06() {
 
-    const [massa, setMassa] = useState(0);
-    const [altura, setAltura] = useState(0);
-    const [resultado, setResultado] = useState(0);
+    const [massa, setMassa] = useState(null);
+    const [altura, setAltura] = useState(null);
+    const [resultado, setResultado] = useState(0.00);
     const [classificacao, setClassificacao] = useState('');
 
     function CalcularImc() {
@@ -22,7 +22,7 @@ export default function Atividade06() {
             setClassificacao('Sobrepeso');
         } else if (valor >= 30 && valor < 34.9) {
             setClassificacao('Obesidade grau I');
-        } else if (valor >= 35 && valor < 39.9) {
+        } else if (valor >= 35 && valor < 40) {
             setClassificacao('Obesidade grau II');
         } else {
             setClassificacao('Obesidade grau III');
